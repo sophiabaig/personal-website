@@ -1,0 +1,35 @@
+* {
+    font-family: 'DM Sans', sans-serif;
+    padding: 5px;
+    margin: 5px;
+    border-width: 0px;
+}
+
+body {
+    background: rgb(249,245,244);
+}
+
+.project-pic {
+    width: 250px;
+    height: 250px;
+    border-radius: 15px;
+}
+
+.profile-pic {
+    width: 330px;
+    height: 490px;
+    border-radius: 15px;
+}
+
+.flexbox-item {
+    border: 3px solid rgb(221, 204, 200);
+    flex: 1;
+}
+
+.flexbox-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around; 
+    flex-wrap: wrap;
+    align-content: center;
+}
